@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ArrayUtilsTest" time="0.085" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01\target\test-classes;C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01\target\classes;C:\Users\esrae\.m2\repository\org\assertj\assertj-core\3.15.0\assertj-core-3.15.0.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\esrae\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\esrae\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\esrae\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\esrae\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\esrae\AppData\Local\Temp\surefire3261994750140967414\surefirebooter14884181147687588882.jar C:\Users\esrae\AppData\Local\Temp\surefire3261994750140967414 2025-04-10T18-08-15_193-jvmRun1 surefire7778583561327953867tmp surefire_017287212821537442749tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01\target\test-classes;C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01\target\classes;C:\Users\esrae\.m2\repository\org\assertj\assertj-core\3.15.0\assertj-core-3.15.0.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\esrae\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\esrae\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\esrae\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\esrae\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\esrae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\esrae"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\esrae\AppData\Local\Temp\surefire3261994750140967414\surefirebooter14884181147687588882.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="esrae"/>
+    <property name="stdout.encoding" value="Cp1254"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\esrae\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\esrae\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\esrae\OneDrive\Belgeler\GitHub\lab01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\mongosh-2.2.5-win32-x64\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\CMake\bin;C:\Users\esrae\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\esrae\AppData\Local\Programs\Python\Python311\;C:\Users\esrae\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\esrae\AppData\Local\Programs\Python\Python313\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\esrae\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2022.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin;;C:\Users\esrae\.dotnet\tools;C:\Program Files\dotnet\;C:\Users\esrae\Downloads\Git-2.45.2-64-bit.exe;C:\Users\Public\Desktop\Git Bash.lnk;C:\Users\esrae\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;C:\Users\esrae\AppData\Local\Android\Sdk;C:\Users\esrae\AppData\Local\Android\Sdk\emulator;C:\Users\esrae\AppData\Local\Android\Sdk\platform-tools;C:\Users\esrae\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Program Files\Git\bin;C:\Users\esrae\Masaüstü\jdk-23_windows-x64_bin.zip\jdk-23.0.1\bin;C:\Users\esrae\AppData\Local\GitHubDesktop\bin;C:\Users\esrae\AppData\Roaming\npm;C:\Users\esrae\AppData\Local\Pub\Cache\bin\flutterfire.bat;C:\Users\esrae\AppData\Local\Pub\Cache\bin;C:\Users\esrae\go\bin;C:\Users\esrae\Masaüstü\swapshelf\deneme\windows\flutter;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk;C:\Program Files\Google\Chrome\Application\chrome.exe;C:\flutter\bin;C:\flutter;C:\Users\esrae\OneDrive\Belgeler\GitHub\swapshelf;C:\Users\esrae\PycharmProjects\210717010\venv\Scripts\python.exe;C:\Users\esrae\AppData\Local\Programs\Python\Python313;C:\Users\esrae\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\esrae\Masaüstü\ffmpeg-7.1.1-essentials_build\ffmpeg-7.1.1-essentials_build\bin;C:\Users\esrae\OneDrive\Belgeler\GitHub\python\ffmpeg-7.1.1-essentials_build\ffmpeg-7.1.1-essentials_build\bin;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.43.34808\bin\Hostx86\x86\cl.exe;C:\Program Files\apache-maven-3.9.9\bin;;c:\Users\esrae\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testStartIndexMiddleOccurrence" classname="ArrayUtilsTest" time="0.044"/>
+  <testcase name="testSingleElementArrayValueNotExists" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="testSingleElementArrayValueExists" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testLargeArrayPerformance" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="testValueFoundWithStartIndexZero" classname="ArrayUtilsTest" time="0.002"/>
+  <testcase name="testStartIndexEqualToArrayLength" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testEmptyArray" classname="ArrayUtilsTest" time="0.003"/>
+  <testcase name="testValueNotFound" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testValueFoundAtLastIndex" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testArrayNull" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testStartIndexNegative" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testStartIndexOutOfBounds" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testValueMultipleOccurrences" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testValueFoundAtFirstIndex" classname="ArrayUtilsTest" time="0.002"/>
+  <testcase name="testZeroValueInArray" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="testStartIndexEndsBeforeValueOccurs" classname="ArrayUtilsTest" time="0"/>
+  <testcase name="testNegativeNumbersInArray" classname="ArrayUtilsTest" time="0.002"/>
+</testsuite>
